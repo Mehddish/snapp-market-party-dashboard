@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-06-14T11:10:33",
+  "history_csv": "snapp_market_party_history\\snapp_market_party_history_cumulative.csv",
+  "total_runs": 2,
+  "latest_run_datetime": "2026-06-14T10:15:28",
+  "product_strategy_rows": 16,
+  "current_action_rows": 5,
+  "hero_sku_flag_rows": 7,
+  "vendor_strategy_rows": 23,
+  "brand_vendor_spread_rows": 10,
+  "current_active_products": 16,
+  "historical_watchlist_products": 0,
+  "categories": {
+    "پنیر": 9,
+    "شیر": 3,
+    "خامه": 2,
+    "ماست": 2
+  },
+  "top_strategy_signals": {
+    "current_monitor": 9,
+    "isolated_deep_discount_action": 3,
+    "multi_vendor_category_pressure": 2,
+    "activity_led_monitor": 2
+  },
+  "top_brand_vendor_signals": {
+    "brand_category_watchlist": 4,
+    "brand_category_isolated_deep_discount": 3,
+    "brand_category_multi_vendor_attack": 2,
+    "brand_category_sku_range_push": 1
+  },
+  "warning": "If total_runs is low or runs are close together, historical stability and frequency conclusions are not reliable yet.",
+  "outputs": {
+    "product_strategy_csv": "snapp_market_party_strategy\\snapp_product_strategy_matrix.csv",
+    "product_strategy_xlsx": "snapp_market_party_strategy\\snapp_product_strategy_matrix.xlsx",
+    "vendor_strategy_csv": "snapp_market_party_strategy\\snapp_vendor_strategy_patterns.csv",
+    "brand_vendor_spread_csv": "snapp_market_party_strategy\\snapp_brand_vendor_spread.csv",
+    "hero_sku_csv": "snapp_market_party_strategy\\snapp_hero_sku_candidates.csv"
+  }
+}
